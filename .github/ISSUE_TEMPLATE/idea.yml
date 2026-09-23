@@ -1,0 +1,28 @@
+name: An idea
+description: Something Deckz should do, or should stop doing.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do
+      description: >
+        The situation rather than the feature. A described problem can be
+        solved in a way nobody had thought of; a described solution can only be
+        built or refused.
+      placeholder: |
+        I move between two monitors and lose track of which window has focus.
+    validations:
+      required: true
+
+  - type: textarea
+    id: today
+    attributes:
+      label: How you handle it today
+      description: What you do now, including if the answer is "nothing".
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you had in mind
+      description: Optional. Say it if you have something specific.

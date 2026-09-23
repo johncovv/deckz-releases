@@ -1,0 +1,12 @@
+# Every issue goes through a template. A blank issue on a repository holding
+# only binaries tends to arrive without the one detail that makes it
+# reproducible -- which application's windows were involved.
+blank_issues_enabled: false
+
+contact_links:
+  - name: Documentation
+    url: https://deckz.app/docs
+    about: How Deckz arranges windows, and what it does when things go wrong.
+  - name: Keyboard shortcuts
+    url: https://deckz.app/shortcuts
+    about: Every key Deckz answers to.

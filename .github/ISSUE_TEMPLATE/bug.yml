@@ -1,0 +1,87 @@
+name: Something is wrong
+description: A window went somewhere it should not have, or Deckz stopped responding.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Two things make a window-manager bug reproducible, and both are easy to
+        leave out: **which application's windows** were involved, and **what
+        your displays were doing**. The Accessibility API behaves differently
+        per application, so "a window" and "a Safari window" are different
+        reports.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, and what the windows did instead.
+      placeholder: |
+        Pressed ⌥2 with Xcode and Safari open. Safari moved to the left half;
+        Xcode stayed where it was.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+
+  - type: input
+    id: applications
+    attributes:
+      label: Which applications' windows
+      description: >
+        Name them. Some applications refuse part of a resize or move their own
+        window afterwards, and that is usually where the fault turns out to be.
+      placeholder: Xcode 26.1, Safari, Ghostty
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Does it happen again
+      options:
+        - Every time
+        - Sometimes
+        - It happened once
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Deckz version
+      description: The menu bar item, then About.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "15.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: displays
+    attributes:
+      label: Displays
+      description: >
+        How many, their arrangement, and whether any of them changed while this
+        was happening -- a display sleeping or a cable being pulled is its own
+        class of bug.
+      placeholder: Built-in plus one 27" to the left, scaled.
+
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: Before submitting
+      options:
+        - label: Deckz has the Accessibility permission (System Settings → Privacy & Security → Accessibility)
+          required: true
