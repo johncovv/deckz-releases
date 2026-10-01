@@ -5,7 +5,7 @@ size themselves to what is open, and a cascade that always leaves an edge to
 click.
 
 **[Download the latest version](https://github.com/johncovv/deckz-releases/releases/latest)**
-· [deckz.app](https://deckz.app)
+· [deckz.io](https://deckz.io)
 
 ## What this repository is
 

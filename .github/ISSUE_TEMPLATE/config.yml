@@ -5,8 +5,8 @@ blank_issues_enabled: false
 
 contact_links:
   - name: Documentation
-    url: https://deckz.app/docs
+    url: https://deckz.io/docs
     about: How Deckz arranges windows, and what it does when things go wrong.
   - name: Keyboard shortcuts
-    url: https://deckz.app/shortcuts
+    url: https://deckz.io/shortcuts
     about: Every key Deckz answers to.
