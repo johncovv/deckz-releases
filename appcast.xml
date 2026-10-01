@@ -6,6 +6,18 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.3.1</title>
+      <pubDate>Thu, 01 Oct 2026 23:01:51 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Creating a workspace now asks which key it answers to.&lt;/p&gt;
+&lt;p&gt;&amp;quot;New Workspace&amp;quot; offers the keys that are still free; pick one and the workspace is reachable straight away — ⌥ and the key switches to it, ⌥⇧ and the key sends the focused window there. Before, a new workspace arrived as a draft that could not be reached at all until you opened it and found the key picker inside.&lt;/p&gt;
+&lt;p&gt;Give it a layout afterwards, or leave it without one: a workspace with no layout still groups windows, it just does not rearrange them.&lt;/p&gt;
+&lt;p&gt;If this is the first version you let update itself, that part worked.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.3.1/Deckz-0.3.1.zip" length="2511166" type="application/octet-stream" sparkle:edSignature="7NzU24PPgA1eWoztB2EVVNIQVIJ6rfLBsLfw9N3C+h9t+eztN3Qwv/Qr7iV9+cPZ8oPvkwNiHG1gZLRXaQelCw==" />
+    </item>
+    <item>
       <title>0.3.0</title>
       <pubDate>Thu, 01 Oct 2026 22:12:27 +0000</pubDate>
       <sparkle:version>4</sparkle:version>
