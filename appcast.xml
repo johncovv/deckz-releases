@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Deckz</title>
+    <link>https://deckz.io/appcast.xml</link>
+    <description>Updates for Deckz</description>
+    <language>en</language>
+    <item>
+      <title>0.3.2</title>
+      <pubDate>Thu, 01 Oct 2026 23:50:01 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Deckz can now report its own problems.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Report a Problem…&amp;quot; in the menu opens a bug report with the version you are running and your macOS version already filled in. Those are the two things a report is usually missing, and the two nobody should have to go and look up.&lt;/p&gt;
+&lt;p&gt;The website gained a page about installing, which explains why macOS refuses an early build the first time and what to do about it — including which button in that dialog not to press.&lt;/p&gt;
+&lt;p&gt;Settings now says who makes Deckz.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.3.2/Deckz-0.3.2.zip" length="2533974" type="application/octet-stream" sparkle:edSignature="FpU1ffTEldYQyrvDqV2f0shEjaM5fBWhsTUJkYNT4oZP0bJwtL9CldzJRkx8fcqEumYH5CCz3zaIf0m+tfZbBQ==" />
+    </item>
+  </channel>
+</rss>
