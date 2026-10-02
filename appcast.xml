@@ -6,6 +6,22 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.4.0</title>
+      <pubDate>Fri, 02 Oct 2026 18:28:52 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Deckz now works with more than one screen.&lt;/p&gt;
+&lt;p&gt;Each screen shows its own workspace. Switching workspace on one leaves the other alone — until now, changing workspace anywhere put away the windows on every screen, so the second one went blank and stayed blank.&lt;/p&gt;
+&lt;p&gt;The menu bar shows one badge per screen, left to right in the order the screens sit in front of you. The filled badge is the screen your pointer is on.&lt;/p&gt;
+&lt;p&gt;A workspace remembers which screen it belongs to. Press its key and it comes up there. If it is already showing on another screen, the keyboard goes to it rather than dragging it across — a workspace is only ever on one screen, and moving it somewhere you were not looking would leave that screen empty.&lt;/p&gt;
+&lt;p&gt;Option-Shift-Tab carries the workspace you are on to the next screen, and it stays there: through switching away and back, through quitting and reopening, and through unplugging the screen and plugging it in again. The screen it left goes back to whatever it was showing before.&lt;/p&gt;
+&lt;p&gt;Unplug a screen and its workspaces are still reachable on the one that is left. Plug it back in and they return to it.&lt;/p&gt;
+&lt;p&gt;The first time you open this version with two screens attached, Deckz gives each screen a workspace to show and brings that workspace&amp;#x27;s windows onto it, so some windows will move once. After that a workspace only changes screen when you move it.&lt;/p&gt;
+&lt;p&gt;With a single screen nothing is different.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.4.0/Deckz-0.4.0.zip" length="2674126" type="application/octet-stream" sparkle:edSignature="lnWsLllzIr7kMgkYQI09jfHZxddb9ZBPVa2AYRl74TiJGJ8g3d70I0Pvpav2++jgXDSTBI8n9cX7bH37fnvsCQ==" />
+    </item>
+    <item>
       <title>0.3.2</title>
       <pubDate>Thu, 01 Oct 2026 23:50:01 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
