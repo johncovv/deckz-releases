@@ -6,6 +6,25 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.5.0</title>
+      <pubDate>Wed, 28 Oct 2026 23:48:13 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Switching to a workspace now moves the keyboard there.&lt;/p&gt;
+&lt;p&gt;Press a workspace&amp;#x27;s key and you can type straight away. Before, the keyboard stayed on whatever you were last using — including a window that had just been put away — so what you typed went somewhere you could not see.&lt;/p&gt;
+&lt;p&gt;The window that takes it is the one you used most recently in that workspace. Carrying a workspace to the next screen takes the keyboard with it too.&lt;/p&gt;
+&lt;p&gt;A workspace with nothing in it hands the keyboard to Deckz instead, so a keystroke cannot reach a window that is off screen. The menu bar goes on showing whichever app was there before — Deckz has no menu bar of its own — but the keys stop going anywhere until you open something or switch away.&lt;/p&gt;
+&lt;p&gt;This only happens when you ask for it. When Deckz changes workspace on its own, because an app opened a window somewhere else or because a screen was plugged in, the keyboard stays where it is.&lt;/p&gt;
+&lt;p&gt;Several things that moved windows without being asked are fixed as well.&lt;/p&gt;
+&lt;p&gt;Plugging a screen in or out no longer empties your hidden workspaces onto one screen. It used to happen a second after the change, and the windows kept whatever size they were given on the way, so a window could come back narrower every time its workspace crossed between a wide screen and the laptop.&lt;/p&gt;
+&lt;p&gt;Windows brought back from off screen now land on the screen with the menu bar, rather than on whichever screen sits furthest to the left, and one that is already the right size is left alone.&lt;/p&gt;
+&lt;p&gt;Opening an app whose windows live in another workspace no longer rearranges the screen you are not working on. That workspace comes up where you are.&lt;/p&gt;
+&lt;p&gt;The badge in the menu bar names the workspace that is really on screen, instead of the one that was asked for when the switch did not happen.&lt;/p&gt;
+&lt;p&gt;Changing the number of rows in a grid works again, and a window that opens into the workspace in front of you is given a place in it.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.5.0/Deckz-0.5.0.zip" length="2683335" type="application/octet-stream" sparkle:edSignature="iJBd/QT7/pcS45YHZNn839ag/2yCoA7sUQuBMIVL2H7XL7m7Fk7YWr1XvNraHCEnRc3LgEPznjRrcMPT4SG9AA==" />
+    </item>
+    <item>
       <title>0.4.0</title>
       <pubDate>Fri, 02 Oct 2026 18:28:52 +0000</pubDate>
       <sparkle:version>7</sparkle:version>
