@@ -6,6 +6,19 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.5.1</title>
+      <pubDate>Thu, 29 Oct 2026 00:35:44 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;A window sent to a workspace could disappear for good.&lt;/p&gt;
+&lt;p&gt;It happened when the same application was running twice at once — an ordinary browser, say, beside a copy of itself started by a development tool. Deckz looked at only one of the two, so the window in front of you could be one it had never heard of. Sending it to a workspace put it away, switching back brought nothing, and recovering off-screen windows could not reach it either. It was gone until you quit the application.&lt;/p&gt;
+&lt;p&gt;Deckz now looks at every copy of an application that is running, so the window comes back where you left it.&lt;/p&gt;
+&lt;p&gt;A copy with no icon in the Dock is still left alone. Those windows are not ones you can see or reach, and giving one a place in a grid would leave a gap nothing fills.&lt;/p&gt;
+&lt;p&gt;If a window is stranded from before, it comes back the first time you visit its workspace after installing this.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.5.1/Deckz-0.5.1.zip" length="2689567" type="application/octet-stream" sparkle:edSignature="+/qoRaRYW5C24nOBx0pOw7EoHs6pX8J290yKkal+U2sHGSdI+GZqvGQMjovaG27i1m8Mb8D2OmrdJX/AIkYeCg==" />
+    </item>
+    <item>
       <title>0.5.0</title>
       <pubDate>Wed, 28 Oct 2026 23:48:13 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
