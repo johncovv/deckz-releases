@@ -6,6 +6,20 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.5.2</title>
+      <pubDate>Sun, 01 Nov 2026 22:12:09 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;A grid now has as many blocks as there are windows in it, and keeps it that way as windows come and go.&lt;/p&gt;
+&lt;p&gt;A workspace holding a single window could show four or six blocks when you dragged something into it. Windows of an app you had quit with them still open went on being counted, for as long as Deckz kept running. They are now let go of the moment the app quits.&lt;/p&gt;
+&lt;p&gt;Closing an app&amp;#x27;s last window — a Finder window with Command-W, a screenshot editor you have finished with — used to leave its block behind until you switched workspace. Deckz now notices, and the windows that are left take the room back straight away. The same happens when you send a window to another workspace: the grid or cascade it came from closes up behind it. Workspaces with zones you drew are left as they are, since those blocks stay where you put them.&lt;/p&gt;
+&lt;p&gt;A second window joining a lone one now sits beside it rather than above it. Rows you once chose by dragging a window to the lower half of the screen were remembered for good, so every window that turned up afterwards split the screen top and bottom. They are now forgotten once the workspace is back to one window. Dragging still chooses the rows whenever you want something else.&lt;/p&gt;
+&lt;p&gt;Dragging a window that had opened in a workspace on its own no longer offers one block too many.&lt;/p&gt;
+&lt;p&gt;And sending the window you are typing in to another workspace now takes the keyboard off it, so what you type next does not go to a window you can no longer see. It goes to the window you used last in the workspace you are looking at, or nowhere if that workspace is now empty.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.5.2/Deckz-0.5.2.zip" length="2713892" type="application/octet-stream" sparkle:edSignature="7lHqrlDhlT1pwOiMLZ/vXaa4/Vq5IaZCyEFi9VDXx0ehm4OsgfgIftN57rBZPaCqawDogtsV00cpmWwRpS5JBQ==" />
+    </item>
+    <item>
       <title>0.5.1</title>
       <pubDate>Thu, 29 Oct 2026 00:35:44 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
