@@ -6,6 +6,17 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.5.3</title>
+      <pubDate>Sun, 01 Nov 2026 22:36:55 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Windows now go into the blocks you drew for them the first time you open their workspace.&lt;/p&gt;
+&lt;p&gt;An app pinned to a block — Docker in one corner, a time tracker in another — used to show up wherever it happened to be when Deckz started, outside its block, until you dragged it in by hand. The same happened to an app you opened while looking at a different workspace. Now each window takes its block on your first visit. Once you move a window yourself, Deckz keeps it where you put it, as before.&lt;/p&gt;
+&lt;p&gt;Opening Deckz again while windows are hidden in other workspaces — after an update, for instance — no longer spreads them across the first workspace. Each stays out of sight until you go to the workspace it belongs to.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.5.3/Deckz-0.5.3.zip" length="2716010" type="application/octet-stream" sparkle:edSignature="I5ZMPilGYDmNGimSOxK9J/MmwF973F0dntbJ6tdiReH8Y/bp3ycdabrpT6NbCUNi7Jinqs8lFq47ysDDdVHaDw==" />
+    </item>
+    <item>
       <title>0.5.2</title>
       <pubDate>Sun, 01 Nov 2026 22:12:09 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
