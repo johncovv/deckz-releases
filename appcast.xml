@@ -6,6 +6,21 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.6.0</title>
+      <pubDate>Mon, 02 Nov 2026 01:33:37 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;The keyboard now reaches inside the workspace you are in, and every shortcut can be changed, switched off or put back from Settings.&lt;/p&gt;
+&lt;p&gt;**Zen mode.** Press Control-Option-Z and the window you are using fills the workspace on its own; the others are put away without being resized. Switch to another of the workspace&amp;#x27;s windows -- Command-Tab, Command-`, or the focus keys below -- and it takes over, with a short note in the middle of the screen saying which window you are on and where it sits in the workspace. Press Control-Option-Z again and everything goes back where it was. Closing the window in Zen, or carrying the workspace to another screen, ends Zen the same way.&lt;/p&gt;
+&lt;p&gt;**Moving around a workspace.**&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Control-Option-Command and an arrow puts the keyboard on the window next to the one you are in, without moving anything.&lt;/li&gt;&lt;li&gt;Control-Option and an arrow swaps the window with its neighbour, as before, and now also works in zones you drew.&lt;/li&gt;&lt;li&gt;Control-Option and a number sends the window to that block, counted left to right and top to bottom.&lt;/li&gt;&lt;li&gt;Control-Option-R turns the grid: side by side becomes stacked, and back.&lt;/li&gt;&lt;li&gt;Control-Option-L and Control-Option-Shift-L step the workspace through grid, cascade and each of your zone sets.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Windows moved by a shortcut now land at once. Some apps -- Chrome, Slack and VS Code among them -- used to slide into place; they no longer do when you use the keyboard. Dragging with the mouse behaves as it always has.&lt;/p&gt;
+&lt;p&gt;**Settings → Shortcuts.** Click a shortcut and press the new combination. Combinations already taken by another Deckz shortcut can be swapped, and ones macOS uses get a warning first. Every shortcut, and every section of the list, has a switch, and a switched-off shortcut stays off through updates. The modifier that goes with your workspace keys -- Option to go there, Option-Shift to send a window there -- can be changed for all of them at once.&lt;/p&gt;
+&lt;p&gt;Your existing shortcuts are unchanged. The new ones are added only where their combination is free, and a default you removed by editing the configuration file is not added back.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.6.0/Deckz-0.6.0.zip" length="3106356" type="application/octet-stream" sparkle:edSignature="hp7GVNtJA0eRLtvjs74N91acC2w1vf31dqCgpEe0yWIVDNQ5U/zfYttZ9iNlfIJzv3E0ASbDBltk/A3TCL3/Cw==" />
+    </item>
+    <item>
       <title>0.5.3</title>
       <pubDate>Sun, 01 Nov 2026 22:36:55 +0000</pubDate>
       <sparkle:version>11</sparkle:version>
