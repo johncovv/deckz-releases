@@ -6,6 +6,19 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.7.0</title>
+      <pubDate>Mon, 02 Nov 2026 03:35:24 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Deckz now speaks Portuguese, Spanish and French as well as English.&lt;/p&gt;
+&lt;p&gt;**Your language, from the start.** Deckz opens in the language your Mac uses when it is one of the four, and in English otherwise. Nothing to set up.&lt;/p&gt;
+&lt;p&gt;**Change it in Settings → General → Language.** Pick English, Português (Brasil), Español or Français, or System to follow your Mac again. Everything Deckz shows -- the menu, Settings, the notes in the middle of the screen, the zone editor and the update prompt -- changes at once, without quitting. The window that downloads and installs updates follows the new language the next time Deckz opens.&lt;/p&gt;
+&lt;p&gt;The choice is the same one macOS keeps for each app, so changing it in System Settings → General → Language &amp;amp; Region → Applications works too.&lt;/p&gt;
+&lt;p&gt;Key names in Settings and in shortcut warnings now follow how macOS writes them in each language, and counts read naturally -- &amp;quot;1 window&amp;quot;, &amp;quot;3 windows&amp;quot; -- in all four.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.7.0/Deckz-0.7.0.zip" length="3240181" type="application/octet-stream" sparkle:edSignature="q98I//d+l0894J5S7YZfd5TXDc6QUL5pChBWLMj8GJTowwL/PZIQFgtXNjfeRBRbSPZiVAT4TYuIm+gOIRhHBA==" />
+    </item>
+    <item>
       <title>0.6.0</title>
       <pubDate>Mon, 02 Nov 2026 01:33:37 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
