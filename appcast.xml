@@ -6,6 +6,19 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.7.1</title>
+      <pubDate>Mon, 02 Nov 2026 21:53:56 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Workspaces now behave when something is playing full screen.&lt;/p&gt;
+&lt;p&gt;**A full-screen display keeps its workspace.** Before, pressing a workspace shortcut while a video played full screen changed the workspace shown in the menu bar but nothing on screen, and leaving full screen showed windows from two workspaces mixed together. Now Deckz leaves that display alone and says so over the video: &amp;quot;Exit full screen to use this display&amp;quot;. Leave full screen and the display is exactly as it was.&lt;/p&gt;
+&lt;p&gt;**The other displays carry on.** With several monitors, one playing something full screen no longer gets in the way of the rest: you can still switch workspaces and arrange windows on them. Sending a window to the workspace shown on the full-screen display is refused until you leave full screen.&lt;/p&gt;
+&lt;p&gt;If &amp;quot;Displays have separate Spaces&amp;quot; is off in System Settings → Desktop &amp;amp; Dock, macOS blanks every other display while one is full screen, so Deckz leaves all of them alone.&lt;/p&gt;
+&lt;p&gt;The notes Deckz shows in the middle of the screen, such as Zen turning off, now appear over full-screen windows too.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.7.1/Deckz-0.7.1.zip" length="3296324" type="application/octet-stream" sparkle:edSignature="MtlWZH/ZiDIJKbHbJOFlh3Xed0CONX48E4xo++bbG6hIf+uQV5dR9nzwnJSCH1zBMm9JY9L8LKSHfYkFJD6MDQ==" />
+    </item>
+    <item>
       <title>0.7.0</title>
       <pubDate>Mon, 02 Nov 2026 03:35:24 +0000</pubDate>
       <sparkle:version>13</sparkle:version>
