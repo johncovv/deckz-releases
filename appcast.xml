@@ -6,6 +6,20 @@
     <description>Updates for Deckz</description>
     <language>en</language>
     <item>
+      <title>0.7.2</title>
+      <pubDate>Wed, 11 Nov 2026 19:27:56 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Windows now stay where you put them when you move between workspaces.&lt;/p&gt;
+&lt;p&gt;**Windows come back whole.** On a setup with displays of different heights, a tall window, such as a browser on an ultrawide, could come back from another workspace cut to the height of the smaller display. It now comes back the full height of its place.&lt;/p&gt;
+&lt;p&gt;**Hidden windows stay hidden.** A window from a workspace you are not looking at no longer peeks out along the edge of a neighbouring display.&lt;/p&gt;
+&lt;p&gt;**Shortcuts pressed quickly do what you asked.** Sending a window through several workspaces in a row, or switching rapidly, used to leave some workspaces holding on to apps that had moved elsewhere, so their next windows opened in the wrong place. Each shortcut now finishes before the next one starts.&lt;/p&gt;
+&lt;p&gt;**Windows no longer drop out of Deckz.** A window could stop being arranged, shown or hidden for the rest of the session, staying wherever it happened to be and appearing over other workspaces. It now stays managed.&lt;/p&gt;
+&lt;p&gt;**Focus follows the right display.** With more than one display, clicking a window that belongs to a hidden workspace brings that workspace up on the display it belongs to.&lt;/p&gt;</description>
+      <enclosure url="https://deckz.io/download/v0.7.2/Deckz-0.7.2.zip" length="3377936" type="application/octet-stream" sparkle:edSignature="BAjmMQy0eldjhWNnjLo1242X9WxZqIpypZ7gZ1YZSBYoLNjPK2LDm+LcS6i/77Ku6SV5TtqHwle19soPN1C2Ag==" />
+    </item>
+    <item>
       <title>0.7.1</title>
       <pubDate>Mon, 02 Nov 2026 21:53:56 +0000</pubDate>
       <sparkle:version>14</sparkle:version>
